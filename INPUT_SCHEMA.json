@@ -1,0 +1,25 @@
+{
+  "title": "MyHockeyRankings Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "rankingUrl": {
+      "title": "Rankings Page URL",
+      "type": "string",
+      "description": "The URL of the MyHockeyRankings page to scrape",
+      "default": "https://myhockeyrankings.com/rank.php?y=2025&v=123",
+      "editor": "textfield",
+      "prefill": "https://myhockeyrankings.com/rank.php?y=2025&v=123"
+    },
+    "maxTeams": {
+      "title": "Max Teams to Scrape",
+      "type": "integer",
+      "description": "Maximum number of teams to scrape (0 for unlimited). Use 3-5 for testing.",
+      "default": 0,
+      "minimum": 0,
+      "editor": "number",
+      "prefill": 0
+    }
+  },
+  "required": ["rankingUrl"]
+}

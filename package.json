@@ -1,0 +1,17 @@
+{
+  "name": "myhockeyrankings-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Scrapes team names, ratings, cities, and states from MyHockeyRankings.com",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "apify": "^3.1.0",
+    "crawlee": "^3.7.0",
+    "playwright": "^1.40.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
