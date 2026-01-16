@@ -5,7 +5,7 @@ await Actor.init();
 
 const input = await Actor.getInput();
 const {
-    rankingUrl = 'https://myhockeyrankings.com/rank.php?y=2025&v=122',
+    rankingUrl = 'https://myhockeyrankings.com/rank.php?y=2025&a=1&v=122',
     maxTeams = 0  // 0 = unlimited (scrape all teams)
 } = input || {};
 

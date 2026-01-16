@@ -7,9 +7,9 @@
       "title": "Rankings Page URL",
       "type": "string",
       "description": "The URL of the MyHockeyRankings page to scrape",
-      "default": "https://myhockeyrankings.com/rank.php?y=2025&v=123",
+      "default": "https://myhockeyrankings.com/rank.php?y=2025&a=1&v=122",
       "editor": "textfield",
-      "prefill": "https://myhockeyrankings.com/rank.php?y=2025&v=123"
+      "prefill": "https://myhockeyrankings.com/rank.php?y=2025&a=1&v=122"
     },
     "maxTeams": {
       "title": "Max Teams to Scrape",
